@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ankit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ac">ankit chaurasia</string>
+    <string name="add">Add one</string>
+    <string name="sub">subtract 1</string>
+    <string name="total">Your total is 0</string>
+    <string name="type">Type a command</string>
+    <string name="email">Email address</string>
+    <string name="mate">Mateful Intro</string>
+    <string name="per">Person name</string>
+    <string name="sendEmail">Send email</string>
+    <string name="set_wall">Set wallpaper</string>
+    <string name="cApp">Camera Application</string>
+     <string name="sActi">StartActivity</string>
+    <string name="sActiForResult">StartActivityForResult</string>
+
+</resources>

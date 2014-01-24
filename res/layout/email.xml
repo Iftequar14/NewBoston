@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="30" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email address(es):"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etEmails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hateful Intro:"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person&apos;s name"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stupid Things that this Person does"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etThings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What you want to do to this person:"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hateful Outro"
+                android:textColor="@android:color/white" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/etOutro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white" >
+            </EditText>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="40"
+        android:orientation="vertical"
+        android:textColor="@android:color/black" >
+
+        <Button
+            android:id="@+id/bSentEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Send Email" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="30"
+        android:orientation="vertical"
+        android:textColor="@android:color/black" >
+
+        <AnalogClock
+            android:id="@+id/analogClock1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </AnalogClock>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSQLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etSQLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/white" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvSQLHoteness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotness Scale 1to 10"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etSQLHoteness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bSQLUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update SQLite Datebase"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/bSQLOpenView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvEnterRowId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Row Id"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/etEnterRowId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/bgetInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Information" />
+
+    <Button
+        android:id="@+id/bEdit_Entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Entry" />
+
+    <Button
+        android:id="@+id/bDelete_Entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Entry" />
+
+</LinearLayout>
